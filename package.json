@@ -1,0 +1,27 @@
+{
+  "name": "creandoapirest",
+  "version": "1.0.0",
+  "description": "Proyecto para crear API-Rest con NodeJS y Express",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiRendon/Repository-node.git"
+  },
+  "author": "santiRendon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiRendon/Repository-node/issues"
+  },
+  "homepage": "https://github.com/SantiRendon/Repository-node#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.20"
+  }
+}
