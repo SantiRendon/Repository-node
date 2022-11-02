@@ -1,0 +1,21 @@
+{
+  "name": "repaso",
+  "version": "1.0.0",
+  "description": "Proyecto para repasar el uso de node e instalacion de paquetes en node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set ENTORNO=developer& nodemon index.js",
+    "qa": "set ENTORNO=qa& nodemon index.js",
+    "start": "set ENTORNO=production& node index.js"
+  },
+  "author": "santiRendon",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.20"
+  }
+}
